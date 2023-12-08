@@ -8,7 +8,7 @@ This project delves into the realm of fraud detection within mobile phone transa
 
 This project was developed in a Python environment, specifically designed to support data analysis and machine learning tasks. Key libraries used include Pandas for data manipulation, Scikit-learn for machine learning models and pipelines, and SHAP for model interpretability. The project is compatible with standard Python environments that support Jupyter Notebooks.
 
-Please run 'test_environment.ipynb'. It checks the versions of your python and some packages (like pandas, shap, etc). If the notebook returns all OK, you should be able to run the code without issues. If some FAILs are returned, you need to install/update those packages first.
+Please run `test_environment.ipynb`. It checks the versions of your python and some packages (like pandas, shap, etc). If the notebook returns all OK, you should be able to run the code without issues. If some FAILs are returned, you need to install/update those packages first.
 
 ## Project structure
 
