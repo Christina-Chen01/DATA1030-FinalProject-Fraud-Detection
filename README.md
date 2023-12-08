@@ -16,17 +16,17 @@ Please run `test_environment.ipynb`. It checks the versions of your python and s
 
 In the first part, the focus was on data cleaning and performing an Exploratory Data Analysis (EDA) to understand the dataset's characteristics and nuances. This section is crucial for laying the groundwork for effective model building.
 
-Notebook location: /src/CChen_FinalProject(Part1).ipynb
+Notebook location: `/src/CChen_FinalProject(Part1).ipynb`
 
 #### Part II: Preprocessing, Modeling, and Interpretability
 
 The second part involved preprocessing the data, constructing machine learning pipelines, and tuning hyperparameters. This stage also includes the evaluation of model results and interpreting the outcomes to derive meaningful insights.
 
-Notebook location: /src/CChen_FinalProject(Part2).ipynb
+Notebook location: `/src/CChen_FinalProject(Part2).ipynb`
 
 ## Initial Fraud Detection Dataset
 
-The original dataset for fraud detection is sourced from Kaggle(https://www.kaggle.com/datasets/ealaxi/paysim1). However, this project primarily utilizes a preprocessed version of the data, located in the /data directory for ease of access and enhanced efficiency in processing and analysis.
+The original dataset for fraud detection is sourced from Kaggle(https://www.kaggle.com/datasets/ealaxi/paysim1). However, this project primarily utilizes a preprocessed version of the data, located in the `/data/PS_20174392719_log.csv` directory for ease of access and enhanced efficiency in processing and analysis.
 
 ## Author
 
