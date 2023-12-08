@@ -1,32 +1,36 @@
 # Mobile Phone Transactions Fraud Detection
 
-The prevalence of mobile phone transactions has turned individual monitoring for fraudulent activity into a task that is both crucial yet complicated. Failing to maintain a robust fraud detection system can result in considerable risks, such as major financial losses for both businesses and individuals, diminishing customer trust, and increased operational expenses for financial institutions.
+In the era of digital transactions, the rise in mobile phone-based financial activities has rendered the monitoring of fraudulent transactions both increasingly vital and challenging. The absence of an effective fraud detection system can lead to severe consequences, including significant financial losses for both individuals and businesses, erosion of customer trust, and escalated operational costs for financial institutions.
 
-This project aims to evaluate an extremely imbalanced transaction dataset through supervised machine learning methods – Logistic Regression, K Nearest Neighbor, Random Forest, and XGBoost – for fraud detection in a Jupyter Notebook or any other coding environment. 
+This project delves into the realm of fraud detection within mobile phone transactions by utilizing a highly imbalanced dataset. It employs a range of supervised machine learning techniques, such as Logistic Regression, K Nearest Neighbor, Random Forest, and XGBoost, implemented within a Jupyter Notebook environment. The project's primary objective is to identify fraudulent transactions effectively and to equip participants with the skills required for hyperparameter tuning and machine learning model development in the context of fraud detection.
 
-I hope that by the end, participants will be well-equipped to start innovating with ChatGPT and develop their own applications.
+## Python Environment and Setup
 
-I assume participants have basic Python knowledge and know how to work with containers (such as lists and dictionaries), control flow (like for loops and if statements), and functions.
+This project was developed in a Python environment, specifically designed to support data analysis and machine learning tasks. Key libraries used include Pandas for data manipulation, Scikit-learn for machine learning models and pipelines, and SHAP for model interpretability. The project is compatible with standard Python environments that support Jupyter Notebooks.
 
-## Prerequisites
+Please run `test_environment.ipynb`. It checks the versions of your python and some packages (like pandas, shap, etc). If the notebook returns all OK, you should be able to run the code without issues. If some FAILs are returned, you need to install/update those packages first.
 
-Please run `test_environment.ipynb`. It checks the versions of your python and some packages (like pandas, openai). If the notebook returns all OK, you should be able to run the code without issues. If some FAILs are returned, you need to install/update those packages first.
+## Project structure
 
-You can recreate the python environment using the `dscov-chatgpt.yml` conda environment file by running these two commands in the terminal:
+#### Part I: Data Cleaning and Exploratory Data Analysis (EDA)
 
-`conda env create -n dscov-chatgpt -f dscov-chatgpt.yml`
+In the first part, the focus was on data cleaning and performing an Exploratory Data Analysis (EDA) to understand the dataset's characteristics and nuances. This section is crucial for laying the groundwork for effective model building.
 
-`conda activate dscov-chatgpt`
+Notebook location: `/src/CChen_FinalProject(Part1).ipynb`
 
-You should be able to run `src/DSCoV - ChatGPT API.ipynb` now.
+#### Part II: Preprocessing, Modeling, and Interpretability
+
+The second part involved preprocessing the data, constructing machine learning pipelines, and tuning hyperparameters. This stage also includes the evaluation of model results and interpreting the outcomes to derive meaningful insights.
+
+Notebook location: `/src/CChen_FinalProject(Part2).ipynb`
 
 ## Initial Fraud Detection Dataset
 
-The initial fraud detection dataset could be found here: https://www.kaggle.com/datasets/ealaxi/paysim1
+The original dataset for fraud detection is sourced from Kaggle(https://www.kaggle.com/datasets/ealaxi/paysim1). However, this project primarily utilizes a preprocessed version of the data, located in the `/data/PS_20174392719_log.csv` directory for ease of access and enhanced efficiency in processing and analysis.
 
 ## Author
 
-Andras Zsom (andras_zsom@brown.edu)
+Chujun Chen (chujun_chen@brown.edu)
 
 ## License
 
