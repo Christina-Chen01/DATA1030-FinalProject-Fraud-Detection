@@ -20,9 +20,9 @@ You can recreate the python environment using the `dscov-chatgpt.yml` conda envi
 
 You should be able to run `src/DSCoV - ChatGPT API.ipynb` now.
 
-## OpenAI API key
+## Initial Fraud Detection Dataset
 
-You will need an API key to query ChatGPT. Follow the instructions [here](https://tfthacker.medium.com/how-to-get-your-own-api-key-for-using-openai-chatgpt-in-obsidian-41b7dd71f8d3) to obtain one. Note that the API access is not free, check out pricing [here](https://platform.openai.com/docs/quickstart/pricing). For reference, it costs me maybe $0.05 to develop and test the code for this presentation.
+The initial fraud detection dataset could be found here: https://www.kaggle.com/datasets/ealaxi/paysim1
 
 ## Author
 
